@@ -112,5 +112,4 @@ networks:
     wordpress_default:
         name: ${COMPOSE_PROJECT_NAME}_default
     nginx-proxy:
-        external:
-            name: nginx-proxy
+        name: nginx-proxy
